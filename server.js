@@ -5,7 +5,7 @@ const sqlite3 = require('sqlite3')
 
 const app = express()
 
-app.use(express.static('skeleton'))
+app.use(express.static('public'))
 
 app.get('/', (req, res) => {
   res.render('/index.html')
