@@ -303,6 +303,20 @@ span.place {
   background: #edb7d3;
 }
 
+.rsvp-background-01 {
+  background: #edb7d3 url(../images/bg/rsvp-01.jpg) 0 0;
+  background-size: cover;
+  grid-column: 15 / 17;
+  grid-row: 1 / 4;
+}
+
+.rsvp-background-02 {
+  background: #edb7d3 url(../images/bg/rsvp-02.jpg) 100% 0;
+  background-size: cover;
+  grid-column: 9 / 15;
+  grid-row: 1 / 4;
+}
+
 .rsvp {
   grid-column: 3 / 15;
   grid-row: 2;

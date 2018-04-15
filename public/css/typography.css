@@ -17,11 +17,19 @@ p.large {
   font: 300 16px/27px "Roboto", sans-serif;
 }
 
+.registry p.large {
+  color: #805c6f;
+}
+
 p {
   margin: 0 0 60px;
   max-width: 450px;
   color: #737380;
   font: 400 14px/20px "Roboto", sans-serif;
+}
+
+a {
+  color: #805c6f;
 }
 
 @media (max-width: 1500px) {
