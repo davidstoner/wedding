@@ -26,7 +26,7 @@ ul {
 .content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 180px min-content 180px;
+  grid-template-rows: 180px min-content min-content 180px;
 }
 
 .registry-grid {
@@ -143,7 +143,7 @@ span.place {
   grid-template-columns: repeat(8, 1fr);
   grid-auto-rows: 180px 180px 180px auto;
   grid-column: 1 / 2;
-  grid-row: 2;
+  grid-row: 2 / 4;
 }
 
 .overview {
@@ -546,7 +546,9 @@ input[type=radio]:checked:after {content:'\002714';font-size:20px;line-height:60
   }
 
   .schedule ul.times li {
-    font-size: 26px;
+    font-size: 20px;
+    line-height: 25px;
+    padding-right: 10px;
   }
 
   .registry {
